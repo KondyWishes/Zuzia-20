@@ -1,0 +1,19 @@
+.description {
+  text-align: center;
+  font-size: var(--font-md);
+  font-weight: 600;
+  padding: 1em;
+  margin: 0.5em;
+  border-bottom: 2px solid var(--clr-white);
+  border-radius: 10px;
+  background-color: var(--clr-primary);
+  max-width: 80%;
+}
+
+/* md */
+@media (min-width: 768px) {
+  .description {
+    font-size: var(--font-lg);
+    max-width: 60%;
+  }
+}

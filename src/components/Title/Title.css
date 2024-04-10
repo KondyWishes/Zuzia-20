@@ -2,10 +2,11 @@
 .title,
 .subtitle {
   text-align: center;
+  padding: 0.25em;
 }
 
 .main__title {
-  font-size: var(--font-4xl);
+  font-size: var(--font-3xl);
   background: var(--clr-white);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -13,9 +14,27 @@
   font-weight: 900;
 }
 
+.title {
+  font-size: var(--font-2xl);
+  font-weight: 800;
+}
+
+.subtitle {
+  font-size: var(--font-lg);
+  font-weight: 700;
+}
+
 /* md */
 @media (min-width: 768px) {
   .main__title {
     font-size: var(--font-5xl);
+  }
+
+  .title {
+    font-size: var(--font-3xl);
+  }
+
+  .subtitle {
+    font-size: var(--font-xl);
   }
 }
