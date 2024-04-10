@@ -1,0 +1,21 @@
+.main__title,
+.title,
+.subtitle {
+  text-align: center;
+}
+
+.main__title {
+  font-size: var(--font-4xl);
+  background: var(--clr-white);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+/* md */
+@media (min-width: 768px) {
+  .main__title {
+    font-size: var(--font-5xl);
+  }
+}

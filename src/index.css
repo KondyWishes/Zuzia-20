@@ -24,8 +24,8 @@
     var(--clr-primary),
     var(--clr-secondary)
   );
-  --clr-background: #f7f7f7;
-  --clr-dark: #333333;
+  --clr-white: #f7f7f7;
+  /* --clr-dark: #333333; */
 
   --font-xs: 0.5rem;
   --font-sm: 0.75rem;
@@ -50,10 +50,16 @@ html {
 
 body {
   font-family: "General Sans", sans-serif;
-  background: var(--clr-background);
+  background: var(--clr-white);
   background-image: var(--clr-gradient);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: var(--clr-dark);
+  color: var(--clr-secondary);
+}
+
+.section {
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
