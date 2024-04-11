@@ -7,13 +7,13 @@
   border-bottom: 2px solid var(--clr-white);
   border-radius: 10px;
   background-color: var(--clr-primary);
-  max-width: 80%;
+  width: clamp(70%, 80%, 85%);
 }
 
 /* md */
 @media (min-width: 768px) {
   .description {
     font-size: var(--font-lg);
-    max-width: 60%;
+    width: clamp(40%, 60%, 65%);
   }
 }
