@@ -8,10 +8,11 @@
 
 .main__title {
   font-size: var(--font-3xl);
-  background: var(--clr-white);
+  color: var(--clr-white);
+  /* background: var(--clr-gradient);
   background-clip: border-box;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   font-weight: 900;
 }
 
