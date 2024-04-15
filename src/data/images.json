@@ -1,63 +1,63 @@
 [
   {
     "id": 1,
-    "src": "/images/fakju.jpg",
+    "src": "/images/fakju.webp",
     "alt": "Nieładny palec"
   },
 
   {
     "id": 2,
-    "src": "/images/na_lodzie.jpg",
+    "src": "/images/na_lodzie.webp",
     "alt": "Na lodzie"
   },
 
   {
     "id": 3,
-    "src": "/images/plaza_xd.jpg",
+    "src": "/images/plaza_xd.webp",
     "alt": "Nawet nie wiem xD"
   },
 
   {
     "id": 4,
-    "src": "/images/czapeczka.jpg",
+    "src": "/images/czapeczka.webp",
     "alt": "Dojebana czapeczka"
   },
 
   {
     "id": 5,
-    "src": "/images/w_parku.jpg",
+    "src": "/images/w_parku.webp",
     "alt": "Ooooo",
     "className": "wide-img"
   },
 
   {
     "id": 6,
-    "src": "/images/pomalowane_mordy.jpg",
+    "src": "/images/pomalowane_mordy.webp",
     "alt": "Pomalowane mordeczki",
     "className": "wide-img"
   },
 
   {
     "id": 7,
-    "src": "/images/browar.jpg",
+    "src": "/images/browar.webp",
     "alt": "Z browarkiem"
   },
 
   {
     "id": 8,
-    "src": "/images/kibelek.jpg",
+    "src": "/images/kibelek.webp",
     "alt": "Kibelek"
   },
 
   {
     "id": 9,
-    "src": "/images/kibelek2.jpg",
+    "src": "/images/kibelek2.webp",
     "alt": "Kibelek"
   },
 
   {
     "id": 10,
-    "src": "/images/serduszko.jpg",
+    "src": "/images/serduszko.webp",
     "alt": "Serdzuszko"
   }
 ]

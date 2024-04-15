@@ -8,7 +8,6 @@ const Header = () => {
         className="header__img"
         src="/svg/cake.svg"
         alt="Tort urodzinowy"
-        loading="lazy"
       />
       <div className="header__title">
         <Title mainTitle={true}>Wesołej Dwudziestki!</Title>
