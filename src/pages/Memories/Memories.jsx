@@ -1,33 +1,37 @@
 import "./Memories.css";
+import imagesData from "../../data/images.json";
 
 const Memories = () => {
   return (
     <section className="memories">
       <div className="memories__header">
-        <img src="/images/essa.png" alt="Essa ziomalki" loading="lazy" />
+        <img
+          className="memories__special-img"
+          src="/images/essa.jpg"
+          alt="Essa ziomalki"
+          loading="lazy"
+        />
       </div>
       <div className="memories__images">
+        {imagesData.map((image, index) => {
+          const classNames = image.className
+            ? `memories__img ${image.className}`
+            : "memories__img";
+          return (
+            <img
+              key={index}
+              className={classNames}
+              src={image.src}
+              alt={image.alt}
+              loading="lazy"
+            />
+          );
+        })}
+      </div>
+      <div className="memories__footer">
         <img
-          className="memories__img"
-          src="/images/na_lodzie.png"
-          alt="Na lodzie"
-          loading="lazy"
-        />
-        <img
-          className="memories__img"
-          src="/images/fakju.png"
-          alt="Nieładny palec"
-          loading="lazy"
-        />
-        <img
-          className="memories__img"
-          src="/images/browar.png"
-          alt="Z browarkiem"
-          loading="lazy"
-        />
-        <img
-          className="memories__img"
-          src="/images/buzi.png"
+          className="memories__special-img"
+          src="/images/buzi.jpg"
           alt="Buzi buzi"
           loading="lazy"
         />

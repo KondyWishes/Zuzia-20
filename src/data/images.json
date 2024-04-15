@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "src": "/images/fakju.jpg",
+    "alt": "Nieładny palec"
+  },
+
+  {
+    "id": 2,
+    "src": "/images/na_lodzie.jpg",
+    "alt": "Na lodzie"
+  },
+
+  {
+    "id": 3,
+    "src": "/images/plaza_xd.jpg",
+    "alt": "Nawet nie wiem xD"
+  },
+
+  {
+    "id": 4,
+    "src": "/images/czapeczka.jpg",
+    "alt": "Dojebana czapeczka"
+  },
+
+  {
+    "id": 5,
+    "src": "/images/w_parku.jpg",
+    "alt": "Ooooo",
+    "className": "wide-img"
+  },
+
+  {
+    "id": 6,
+    "src": "/images/pomalowane_mordy.jpg",
+    "alt": "Pomalowane mordeczki",
+    "className": "wide-img"
+  },
+
+  {
+    "id": 7,
+    "src": "/images/browar.jpg",
+    "alt": "Z browarkiem"
+  },
+
+  {
+    "id": 8,
+    "src": "/images/kibelek.jpg",
+    "alt": "Kibelek"
+  },
+
+  {
+    "id": 9,
+    "src": "/images/kibelek2.jpg",
+    "alt": "Kibelek"
+  },
+
+  {
+    "id": 10,
+    "src": "/images/serduszko.jpg",
+    "alt": "Serdzuszko"
+  }
+]
