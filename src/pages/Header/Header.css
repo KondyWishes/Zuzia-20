@@ -2,6 +2,7 @@
   margin-top: 1em;
   margin-bottom: 2em;
   display: flex;
+  gap: 1em;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -52,5 +53,12 @@
   .header__title {
     max-width: 25em;
     margin: 0 2em;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1440px) {
+  .header {
+    gap: 5em;
   }
 }
