@@ -10,7 +10,7 @@ const Wishes = () => {
       <div className="wishes__description">
         <Description>
           Na początek to chciałbym, tak klasycznie, życzyć dużo szczęścia, kasy
-          i czego tam sobie chcesz.
+          i przede wszystkim dużo zdrowia.
         </Description>
         <Description>
           Znamy się już kawał czasu i stwierdziłem, że z tej okazji, na tak

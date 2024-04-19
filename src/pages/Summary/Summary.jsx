@@ -6,8 +6,8 @@ const Summary = () => {
   return (
     <section className="summary">
       <Description>
-        Nie miałem zbyt wiele zdjęć czy filmów, żeby wrzucić tutaj, więc z tego
-        co miałem, to stwierdziłem, że zmontuje się jeszcze jakiś krótki filmik.
+        Żeby ta stronka nie była zbyt pusta to zmontowałem jeszcze krótki
+        filmik, tak o na zakończenie. Jeszcze raz - Wszystkiego Najlepszego! 🥳
       </Description>
 
       <div className="summary__img">
