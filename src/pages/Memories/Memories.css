@@ -43,7 +43,7 @@
 
 .memories__img {
   max-width: 15em;
-  border-radius: 25px;
+  border-radius: 50px;
   filter: drop-shadow(0 0 1em var(--clr-primary));
 }
 

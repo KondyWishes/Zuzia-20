@@ -26,7 +26,7 @@
 
 .header__title {
   background: var(--clr-gradient);
-  border-radius: 10px;
+  border-radius: 25px;
   border-bottom: 3px solid var(--clr-white);
   padding: 0.75em;
   margin: 2em 0;
