@@ -8,6 +8,7 @@
   width: 70%;
   margin-top: 1em;
   border-bottom: 5px solid var(--clr-white);
+  box-shadow: 0 0 1em var(--clr-white);
 }
 
 .letter__title {

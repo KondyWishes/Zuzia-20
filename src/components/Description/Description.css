@@ -9,6 +9,7 @@
   border-right: 2px solid var(--clr-white);
   background-color: var(--clr-primary);
   width: clamp(70%, 80%, 85%);
+  box-shadow: 0 0 0.5em var(--clr-white);
 }
 
 .description:first-child {
