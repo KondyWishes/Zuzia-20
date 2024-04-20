@@ -10,8 +10,8 @@ const Letter = ({ children }) => {
   };
 
   return (
-    <div className="letter" onClick={toggleExpansion}>
-      <div className="letter__title">
+    <div className="letter">
+      <div className="letter__title" onClick={toggleExpansion}>
         <Title isTitle={false}>KLIKNIJ</Title>
       </div>
       {isExpanded && <div className="letter__content">{children}</div>}
