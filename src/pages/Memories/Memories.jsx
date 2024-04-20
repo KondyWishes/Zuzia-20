@@ -7,7 +7,7 @@ const Memories = () => {
       <div className="memories__header">
         <img
           className="memories__special-img"
-          src="/images/essa.webp"
+          src="./images/essa.webp"
           alt="Essa ziomalki"
           loading="lazy"
         />
@@ -31,7 +31,7 @@ const Memories = () => {
       <div className="memories__footer">
         <img
           className="memories__special-img"
-          src="/images/buzi.webp"
+          src="./images/buzi.webp"
           alt="Buzi buzi"
           loading="lazy"
         />

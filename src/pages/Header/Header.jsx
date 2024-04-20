@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header section">
       <img
         className="header__img"
-        src="/svg/cake.svg"
+        src="./svg/cake.svg"
         alt="Tort urodzinowy"
       />
       <div className="header__title">

@@ -12,7 +12,7 @@ const Summary = () => {
       </Description>
 
       <div className="summary__img">
-        <img src="/svg/years.svg" alt="20 lat" loading="lazy" />
+        <img src="./svg/years.svg" alt="20 lat" loading="lazy" />
         <Title>🥳🥳🥳</Title>
       </div>
       <Letter>
