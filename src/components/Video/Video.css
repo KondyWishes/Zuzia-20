@@ -1,0 +1,29 @@
+.video__container {
+  margin: 1em;
+  padding: 1em;
+}
+
+.video {
+  max-width: 17em;
+  min-height: 20em;
+  border-radius: 25px;
+  padding: 0.5em;
+  filter: drop-shadow(0 0 1em var(--clr-white));
+}
+
+/* md */
+@media (min-width: 768px) {
+  .video {
+    min-width: 30em;
+    max-width: 30em;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .video {
+    min-width: 40em;
+    max-width: 40em;
+    min-height: 25em;
+  }
+}
