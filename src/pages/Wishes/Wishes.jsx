@@ -18,8 +18,8 @@ const Wishes = () => {
           pomysłu, więc zrobiłem to.
         </Description>
         <Description>
-          Trochę się postarałem i przygotowałem pare zdjęć i filmików, tak o
-          żeby powspominać.
+          Zebrałem parę zdjęć i filmików, i umieściłem je tutaj na stronie. Mam
+          nadzieję, że taki prezencik się spodoba.
           <br />
           Więc no, miłego seansu.
         </Description>
