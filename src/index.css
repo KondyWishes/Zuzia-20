@@ -42,6 +42,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-color: var(--clr-secondary) var(--clr-primary);
+  scrollbar-width: thin;
 }
 
 html {
@@ -63,4 +65,19 @@ body {
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--clr-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--clr-secondary);
+  border-radius: 10px;
 }
