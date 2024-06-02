@@ -5,8 +5,16 @@ import "./Wishes.css";
 const Wishes = () => {
   return (
     <section className="wishes">
-      <Title>Gratulacje!</Title>
-      <Title isTitle={false}>Przeżyłaś już dwie dekady!</Title>
+      <div className="wishes__title">
+        <Title>Gratulacje!</Title>
+        <img
+          className="wishes__special-img"
+          src="./images/wishes.webp"
+          alt="Essa ziomalki"
+          loading="lazy"
+        />
+        <Title isTitle={false}>Przeżyłaś już dwie dekady!</Title>
+      </div>
       <div className="wishes__description">
         <Description>
           Na początek to chciałbym, tak klasycznie, życzyć dużo szczęścia, kasy

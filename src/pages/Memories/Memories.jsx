@@ -4,14 +4,6 @@ import imagesData from "../../data/images.json";
 const Memories = () => {
   return (
     <section className="memories">
-      <div className="memories__header">
-        <img
-          className="memories__special-img"
-          src="./images/essa.webp"
-          alt="Essa ziomalki"
-          loading="lazy"
-        />
-      </div>
       <div className="memories__images">
         {imagesData.map((image, index) => {
           const classNames = image.className

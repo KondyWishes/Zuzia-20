@@ -5,10 +5,37 @@
   flex-direction: column;
 }
 
+.wishes__title {
+  margin-bottom: 1em;
+}
+
+.wishes__special-img {
+  /* min-width: 17em; */
+  width: clamp(15em, 17em, 18em);
+  margin: 2em;
+  border-radius: 50px;
+  filter: drop-shadow(0 0 2em var(--clr-secondary));
+}
+
 .wishes__description {
   margin-top: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+/* md */
+@media (min-width: 768px) {
+  .wishes__special-img {
+    width: clamp(25em, 30em, 35em);
+    grid-column: span 2;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .wishes__special-img {
+    width: clamp(35em, 40em, 45em);
+  }
 }
